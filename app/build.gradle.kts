@@ -6,18 +6,15 @@ plugins {
 android {
     namespace = "com.techric8a.ble_device_info_exp1"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
+        version = release(37) {
         }
     }
 
     defaultConfig {
         applicationId = "com.techric8a.ble_device_info_exp1"
         minSdk = 30
-        targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
-
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 37
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
